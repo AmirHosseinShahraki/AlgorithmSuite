@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "src\DataStructures\DataStructures.csproj", "{AFACDC60-875D-4252-B1D2-2A6ACEB663D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphAlgorithms", "src\GraphAlgorithms\GraphAlgorithms.csproj", "{87CC2C06-E867-47DC-BD6A-1FEDFABF8692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAndSearching", "src\SortingAndSearching\SortingAndSearching.csproj", "{457E1F4A-A52E-44A2-A34D-6DE048EFAD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.UnitTests", "tests\DataStructures.UnitTests\DataStructures.UnitTests.csproj", "{2FF6F02E-C86C-4A2E-A375-9F3609B41FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFACDC60-875D-4252-B1D2-2A6ACEB663D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFACDC60-875D-4252-B1D2-2A6ACEB663D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFACDC60-875D-4252-B1D2-2A6ACEB663D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFACDC60-875D-4252-B1D2-2A6ACEB663D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CC2C06-E867-47DC-BD6A-1FEDFABF8692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CC2C06-E867-47DC-BD6A-1FEDFABF8692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CC2C06-E867-47DC-BD6A-1FEDFABF8692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CC2C06-E867-47DC-BD6A-1FEDFABF8692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457E1F4A-A52E-44A2-A34D-6DE048EFAD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457E1F4A-A52E-44A2-A34D-6DE048EFAD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457E1F4A-A52E-44A2-A34D-6DE048EFAD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457E1F4A-A52E-44A2-A34D-6DE048EFAD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF6F02E-C86C-4A2E-A375-9F3609B41FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF6F02E-C86C-4A2E-A375-9F3609B41FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF6F02E-C86C-4A2E-A375-9F3609B41FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF6F02E-C86C-4A2E-A375-9F3609B41FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
