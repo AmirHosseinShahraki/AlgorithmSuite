@@ -9,12 +9,4 @@ public class DirectedGraph<T> : BaseGraph<T> where T : notnull
 
         AdjacencyList[from].Add(to);
     }
-
-    private void AddNodeIfNotExist(T node)
-    {
-        if (!HasNode(node))
-        {
-            AddNode(node);
-        }
-    }
 }

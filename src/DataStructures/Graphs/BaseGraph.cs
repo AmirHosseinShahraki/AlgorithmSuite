@@ -4,6 +4,11 @@ public abstract class BaseGraph<T> where T : notnull
 {
     protected readonly Dictionary<T, HashSet<T>> AdjacencyList = new();
 
+    public bool HasNode(T node)
+    {
+        return AdjacencyList.ContainsKey(node);
+    }
+
     public void AddNode(T node)
     {
         if (AdjacencyList.ContainsKey(node))
@@ -14,9 +19,12 @@ public abstract class BaseGraph<T> where T : notnull
         AdjacencyList[node] = new HashSet<T>();
     }
 
-    public bool HasNode(T node)
+    protected void AddNodeIfNotExist(T node)
     {
-        return AdjacencyList.ContainsKey(node);
+        if (!HasNode(node))
+        {
+            AddNode(node);
+        }
     }
 
     public IEnumerable<T> GetNeighbors(T vertex)
